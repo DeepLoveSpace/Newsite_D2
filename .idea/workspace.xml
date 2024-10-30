@@ -5,36 +5,82 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8efc5daa-bc6a-4316-84e4-1583942dffd4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/NewsSiteProj.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewsPaper/news/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewsPaper/news/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsSite/Commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/Commands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsSite/NewsSite/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPaper/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsSite/NewsSite/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPaper/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsSite/NewsSite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPaper/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsSite/NewsSite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPaper/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsSite/NewsSite/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPaper/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsSite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsSite/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsSite/news/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/news/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsSite/news/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsSite/news/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/news/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsSite/news/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsSite/news/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/news/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsSite/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/news/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsSite/news/views.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DeepLoveSpace&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DeepLoveSpace/Newsite_D2.git&quot;,
+    &quot;accountId&quot;: &quot;ce838602-eaec-4ceb-b585-0d957dcff4b0&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2nf35RTN3SYb08xuRFisEebmqVz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Deep/Projects1/D3_2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Deep\Projects1\NewsSiteProj\NewsSite\static" />
+      <recent name="C:\Users\Deep\Projects1\NewsSiteProj\NewsSite\templates\flatpages" />
+      <recent name="C:\Users\Deep\Projects1\NewsSiteProj\NewsSite\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Deep\Projects1\NewsSiteProj\NewsSite" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

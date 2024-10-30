@@ -1,5 +1,5 @@
-from django.db import models
 from django.contrib.auth.models import User
+from django.db import models
 from django.db.models import Sum
 
 
@@ -10,7 +10,7 @@ class Author(models.Model):
     def update_rating(self):
         postRat = self.post_set.aggregate(postRating=Sum('rating'))
         pRat = 0
-        pRat += postRat.get('postRating')
+        pRat+= postRat.get('postRating')
 
         commentRat = self.authorUser.comment_set.aggregate(commentRating=Sum('rating'))
         cRat = 0
@@ -20,9 +20,10 @@ class Author(models.Model):
         self.save()
 
 
-
 class Category(models.Model):
     name = models.CharField(max_length=64, unique=True)
+
+
 
 
 class Post(models.Model):
@@ -42,15 +43,17 @@ class Post(models.Model):
     rating = models.SmallIntegerField(default=0)
 
     def like(self):
-        self.rating += 1
+        self.rating +=1
         self.save()
 
     def dislike(self):
-        self.rating -= 1
+        self.rating -=1
         self.save()
 
     def preview(self):
         return self.text[0:123] + '...'
+
+
 
 
 class PostCategory(models.Model):
@@ -72,6 +75,3 @@ class Comment(models.Model):
     def dislike(self):
         self.rating -= 1
         self.save()
-
-
-
